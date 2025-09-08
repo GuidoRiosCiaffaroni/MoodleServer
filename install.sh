@@ -91,3 +91,5 @@ echo "    http://TU_SERVIDOR/phpmyadmin"
 echo ""
 echo ">>> No olvides configurar cron para Moodle:"
 echo "    * * * * * www-data /usr/bin/php /var/www/html/moodle/admin/cli/cron.php >/dev/null 2>&1"
+
+sudo apt autoremove
