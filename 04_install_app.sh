@@ -192,6 +192,8 @@ apt install -y python3-typing-extensions
 apt install -y python3-urwid            # UI consola (no interactivo en demo).
 apt install -y python3-wcwidth          # Ancho Unicode.
 
+sudo apt autoremove -y
+
 run_demo "echo '# Python imports (psutil, typing_extensions, urwid, wcwidth):'; python3 - <<'PY'\nimport psutil, typing_extensions, urwid, wcwidth\nprint('cpu_count:', psutil.cpu_count())\nprint('width(á🙂):', wcwidth.wcswidth('á🙂'))\nprint('OK imports')\nPY"
 
 log "Instalación finalizada."
