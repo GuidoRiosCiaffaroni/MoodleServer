@@ -3,8 +3,8 @@
 # Script de instalación + ejemplos de uso (cuando aplica)
 # Ubuntu 22.04 / 24.04 LTS
 # Uso:
-#   sudo ./install_utils.sh           # solo instala
-#   sudo ./install_utils.sh --demo    # instala + corre ejemplos no interactivos
+#   sudo ./04_install_app.sh           # solo instala
+#   sudo ./04_install_app.sh --demo    # instala + corre ejemplos no interactivos
 # ===========================================================
 
 set -euo pipefail
@@ -199,5 +199,5 @@ log "Instalación finalizada."
 if [[ $DEMO -eq 1 ]]; then
   log "Modo demo: se ejecutaron ejemplos no interactivos ✅"
 else
-  log "Para ver ejemplos de uso, ejecuta: sudo ./install_utils.sh --demo"
+  log "Para ver ejemplos de uso, ejecuta: sudo ./04_install_app.sh --demo"
 fi
