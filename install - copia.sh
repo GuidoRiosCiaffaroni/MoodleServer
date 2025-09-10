@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/
+##!/usr/bin/env bash
 #set -euo pipefail
 
 # --- Corrección inicial de saltos de línea y permisos ---
@@ -28,7 +29,7 @@ echo ">>> Instalando Apache2..."
 apt-get install -y apache2
 
 echo ">>> Instalando MariaDB..."
-apt-get install -y mariadb-server
+#apt-get install -y mariadb-server
 #apt-get install -y mariadb-client
 
 echo ">>> Instalando PHP núcleo..."
@@ -65,7 +66,7 @@ apt-get install -y ghostscript
 apt-get install -y cron
 
 echo ">>> Instalando phpMyAdmin..."
-DEBIAN_FRONTEND=noninteractive apt-get install -y phpmyadmin
+#DEBIAN_FRONTEND=noninteractive apt-get install -y phpmyadmin
 
 echo ">>> Habilitando módulos de Apache..."
 a2enmod rewrite
