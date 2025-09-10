@@ -1,14 +1,10 @@
-#sudo apt update -y && sudo apt install -y dos2unix
 
-sudo apt install tmux
+chmod +x 00_install_app.sh
+chmod +x 01_install_apache2.sh
+chmod +x 02_install_php.sh
+chmod +x 03_install_mysql.sh
 
-dos2unix install.sh
-dos2unix apache_moodle.sh
-
-
-chmod +x install.sh
-chmod +x apache_moodle.sh
-
-sudo ./install.sh
-sudo ./apache_moodle.sh
-
+sudo ./00_install_app.sh
+sudo ./01_install_apache2.sh
+sudo ./02_install_php.sh
+sudo ./03_install_mysql.sh
