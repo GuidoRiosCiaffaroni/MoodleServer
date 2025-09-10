@@ -7,7 +7,6 @@
 #   sudo ./04_install_app.sh --demo    # instala + corre ejemplos no interactivos
 # ===========================================================
 
-set -euo pipefail
 
 DEMO=0
 if [[ "${1:-}" == "--demo" ]]; then DEMO=1; fi
