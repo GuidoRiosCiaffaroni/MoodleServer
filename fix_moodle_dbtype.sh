@@ -1,4 +1,7 @@
 #!/bin/sh
+
+#
+
 set -eu
 
 # Ruta de config.php (ajústala si es distinta)

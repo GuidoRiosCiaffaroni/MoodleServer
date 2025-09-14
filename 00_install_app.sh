@@ -5,7 +5,7 @@
 # Uso:
 #   sudo ./04_install_app.sh           # solo instala
 #   sudo ./04_install_app.sh --demo    # instala + corre ejemplos no interactivos
-# ===========================================================
+# ============================================================
 
 
 DEMO=0

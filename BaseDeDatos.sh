@@ -1,5 +1,7 @@
 #!/usr/bin/
 
+#
+
 # --- Configuración (cámbiala según tu necesidad) ---
 DB_HOST="localhost"
 DB_NAME="moodle"

@@ -1,4 +1,7 @@
 #!/usr/bin/
+
+##
+
 # --- Configurables ---
 MOODLE_DIR="/var/www/html/moodle"   # carpeta del código de Moodle
 DATA_DIR="/var/moodledata"          # ubicación recomendada para datos (fuera de /var/www)

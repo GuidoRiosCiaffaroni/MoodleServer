@@ -1,5 +1,7 @@
 #!/usr/bin/
 
+# Instalacion de Apache2
+
 echo ">>> Actualizando paquetes..."
 apt-get update -y
 apt-get upgrade -y

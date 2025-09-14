@@ -1,5 +1,7 @@
 #!/usr/bin/
 
+#
+
 echo ">>> Actualizando paquetes..."
 apt-get update -y
 apt-get upgrade -y

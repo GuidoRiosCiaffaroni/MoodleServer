@@ -1,5 +1,7 @@
 #!/usr/bin/env
 
+#
+
 # --- Detectar versión de PHP automáticamente ---
 PHP_VERSION=$(php -r 'echo PHP_MAJOR_VERSION.".".PHP_MINOR_VERSION;')
 INI_APACHE="/etc/php/${PHP_VERSION}/apache2/php.ini"
