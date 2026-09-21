@@ -14,3 +14,12 @@ fi
 source ~/.bashrc
 
 echo "Configuración finalizada."
+
+
+cat > /etc/profile.d/ll_alias.sh << 'EOF'
+alias ll='ls -alF'
+EOF
+
+chmod 644 /etc/profile.d/ll_alias.sh
+
+echo "Alias ll instalado para todos los usuarios."
